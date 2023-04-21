@@ -1,0 +1,47 @@
+:root
+--color-button-green: #bbf330;
+--color-dark-green: #7eb101;
+--color-yellow-main: #ffe550;
+--color-black: #2c2c2c;
+--color-white: #fefefe;
+--color-2: #a7ce47;
+--color-text: #3d3d3d;
+--color-text-2: #969696;
+--color-text-3: #4a4a4a;
+
+/font/
+
+--font-family: 'Kalam',cursive;
+--font-family: 'Raleway',sans-serif;
+--font-family: 'Roboto', sans-serif;
+
+/**
+  |============================
+  | Header
+  |============================
+*/
+body{
+    background-color: #FEFEFE;;
+
+}
+
+
+.nav-list{
+    color: var(--color-black);
+
+}
+
+.nav-list:focus,
+.nav-list:hover{
+    color: var(--color-button-green);
+}
+
+.btn-nav{
+    background-color:var(--color-button-green);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: right;
+    color: var(--color-black);
+}
