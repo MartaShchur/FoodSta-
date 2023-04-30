@@ -22,21 +22,20 @@
 */
 body{
     background-color: #FEFEFE;;
+}
+
+.menu, .list{
+    list-style: none;
+   
 
 }
 
-
-.nav-list{
-    color: var(--color-black);
-
-}
-
-.nav-list:focus,
-.nav-list:hover{
+.header-list:focus,
+.header-list:hover{
     color: var(--color-button-green);
 }
 
-.btn-nav{
+.header-btn{
     background-color:var(--color-button-green);
     font-family: 'Roboto';
     font-weight: 500;
