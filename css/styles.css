@@ -26,12 +26,15 @@ body{
 
 .menu, .list{
     list-style: none;
+}
    
-
+.link{
+    text-decoration: none;
 }
 
-.header-list:focus,
-.header-list:hover{
+
+.menu-list:focus,
+.menu-list:hover{
     color: var(--color-button-green);
 }
 
